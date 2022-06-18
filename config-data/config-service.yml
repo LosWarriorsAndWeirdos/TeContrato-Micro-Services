@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8081
 
 spring:
   cloud:
@@ -8,6 +8,8 @@ spring:
         git:
           uri: https://github.com/LosWarriorsAndWeirdos/TeContrato-Micro-Services.git
           searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
           default-label: "main"
   security:
     user:
