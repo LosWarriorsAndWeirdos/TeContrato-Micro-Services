@@ -3,9 +3,9 @@ server:
 
 eureka:
   instance:
-    hostname: registry-service
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://registry-service:8099/eureka/
+      defaultZone: http://localhost:8099/eureka/
