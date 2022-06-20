@@ -1,1 +1,0 @@
-INSERT INTO budgets (id, description, monto, date) VALUES (1, 'Cañería', 97, 'Lunes 3 de Marzo');

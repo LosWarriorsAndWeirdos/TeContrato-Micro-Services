@@ -1,1 +1,0 @@
-INSERT INTO projects (id, project, creationDate, description , status) VALUES(1, 'Cañeria', 'Lunes', 'Arreglar', true);
